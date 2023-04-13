@@ -1,0 +1,174 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+    <title>Dashboard</title>
+</head>
+<body style="user-select: none; background-color: rgb(221, 221, 221);">
+<!-- header section-->
+    <div class="banners bg-dark">
+        <div class="logo">
+           <h3 class="text-center m-3 text-primary fw-bold">Admin Dashboard</h3> 
+        </div>
+         <div class="header">
+            <div class="m-4">
+                <input class="form-control mr-sm-2 bg-light" type="search" placeholder="Search" aria-label="Search">
+                <!-- <img src="Assets/user.jpg" alt="user logo" class="img-fluid mt-4" style="width: 70px; height: 70px; border-radius: 50px;"> <strong class="text-light">Hello,&nbsp;&nbsp; Mulugeta Nigus</strong> -->
+            </div>
+            <div class="m-4">
+                <button class="btn btn-outline-warning w-100" type="submit">Search</button>
+            </div>
+            <div class="m-3">
+                <img src="Assets/user.jpg" alt="user logo" class="img-fluid" style="width: 70px; height: 70px; border-radius: 50px;"> <strong class="text-muted">Mulugeta Nigus</strong>
+            </div>
+         </div>
+    </div>
+    <!-- side and main section -->
+    <div class="row">
+        <div class="col-md-3 bg-primary">
+                <nav class="mt-5">
+                    <ul>
+                        <li class="six h5 text-light">
+                            <box-icon color='white' name='home' type='solid' flip='horizontal'></box-icon>
+                            Home
+                        </li>
+                        <li class="six h5 text-light">
+                            <box-icon type='solid' color='white' name='user-pin'></box-icon>
+                            Profile
+                        </li>
+                        <li class="six h5 text-light">
+                            <box-icon color='white' name='message-rounded-dots'></box-icon>
+                            Messages
+                        </li>
+                        <li class="six h5 text-light">
+                            <box-icon type='solid' color='white' name='watch'></box-icon>
+                            History
+                        </li>
+                        <li class="six h5 text-light">
+                            <box-icon type='solid' color='white' name='file'></box-icon>
+                            tasks
+                        </li>
+                        <li class="six h5 text-light">
+                            <box-icon type='logo' color='white' name='microsoft-teams'></box-icon>
+                            Communities
+                        </li>
+                        <br>
+                        <br>
+                        <div class="container4">
+                            <li class="six h5 text-light">
+                                <box-icon type='solid' color='white' name='virus'></box-icon>Settings
+                            </li>
+                            <li class="six h5 text-light">
+                                <box-icon color='white' name='question-mark'></box-icon>Support
+                            </li>
+                            <li class="six h5 text-light">
+                                <box-icon color='white' type='solid' name='check-shield'></box-icon>Privacy
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
+<!-- 
+                <ul class="m-3">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Tasks</a></li>
+                <li><a href="#">Communities</a></li>
+                <br>
+                <br>
+                <li><a href="#">Setting</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul> -->
+        </div>
+        <div class="col-md-9">
+            <!-- nesting another cards through main column -->
+            <h2 class="m-3">My Awesome Projects and Others</h2>
+            <div class="row m-2" id="main-cards">
+                <div class="col-md-4 my-2">
+                    <div class="card" id="box">
+                        <div class="card-body">
+                            <p class="text-lead h4">Calculator</p>
+                            <hr>
+                            <!-- <p>Impedit quam omnis sapiente placeat veritatis sequi illo doloribus?</p> -->
+                            <img src="Assets/cal.png" alt="logo" class="img-fluid" style="width: 270px; height: 150px;">
+                            <hr>
+                                <a href="https://mulugetanigus.github.io/odin-calculator" target="_blank">
+                                    <button class="btn btn-outline-primary">Live Demo</button>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="card" id="box">
+                        <div class="card-body">
+                            <p class="text-lead h4">Rock-Paper-Scissor-Game</p>
+                            <hr>
+                            <!-- <p>sapiente placeat veritatis sequi illo doloribus?</p>                             -->
+                            <img src="Assets/rps.png" alt="logo" class="img-fluid" style="width: 270px; height: 120px;">
+                            <hr>
+                            <a href="https://mulugetanigus.github.io/rock-paper-scissor/" target="_blank">
+                                <button class="btn btn-outline-primary">Live Demo</button>
+                            </a>
+                        </div>
+                    </div>
+              </div>
+                <div class="col-md-4 my-2">
+                    <div class="card" id="box">
+                        <div class="card-body">
+                            <p class="text-lead h4">LogIn Forms</p>
+                            <hr>
+                            <!-- <p>Impedit quam omnis sapiente placeat veritatis sequi illo doloribus?</p>                             <hr> -->
+                            <img src="Assets/login2.jpg" alt="logo" class="img-fluid" style="width: 270px; height: 146px;">
+                            <hr>
+                            <a href="https://mulugetanigus.github.io/odin-form-project" target="_blank">
+                                <button class="btn btn-outline-primary">Live Demo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+          </div>
+            <div class="row m-2" id="main-cards">
+                <div class="col-md-4 my-2">
+                    <div class="card" id="box">
+                        <div class="card-body">
+                            <p class="text-lead h4">money maker</p>
+                            <hr>
+                            <p>adipisicing elit. Impedit quam omnis sapiente placeat veritatis sequi illo doloribus?</p>                        </div>
+                    </div>
+                </div>
+             <div class="col-md-4 my-2">
+                    <div class="card" id="box">
+                        <div class="card-body">
+                            <p class="text-lead h4">ad Blocker</p>
+                            <hr>
+                            <p>adipisicing elit. Impedit quam omnis sapiente placeat veritatis sequi illo doloribus?</p>                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="card" id="box">
+                        <div class="card-body">
+                            <p class="text-lead h4">Cool Projects</p>
+                            <hr>
+                            <p>adipisicing elit. Impedit quam omnis sapiente placeat veritatis sequi illo doloribus?</p>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="row">
+        <div class="col-md-12 bg-warning shadow-lg p-2 text-center">
+            <p class="h6">Developed By Muller_King | &copy; 2023 All right Reserved</p>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

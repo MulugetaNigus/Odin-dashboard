@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banners{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 5fr 2fr 4fr;
+    gap: 20px;
+}
+
+#main-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 21px;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    margin-left: 10px;
+    transition: .3s;
+    color: gray;
+}
+
+#box{
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 2px 5px 15px gray;
+    border-left: 8px solid rgb(17, 0, 255);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
